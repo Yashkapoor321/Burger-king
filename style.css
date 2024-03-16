@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif; 
+   
+  }
+  h1{
+    margin: 2rem;
+    text-align: center;
+    color: red;
+  }
+#main{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    /* border: 1px solid red; */
+}
+#menu{
+    display: flex;
+     flex-direction: column;
+     align-items: start;
+     /* border: 2px solid black; */
+     margin-left: 2rem;
+}
+button{
+    margin: 1rem 0rem 1rem 3rem  ;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: orange;
+    border: none;
+    font-size: 24px;
+    font-weight: bolder;
+    width: 10rem;
+}
+
+#foodItems{
+    margin-left: 1rem;
+    line-height: 2rem;
+    /* border: 1px solid yellow; */
+    font-weight: 600;
+}
+
+#foodReceived{
+    margin-top: 1rem;
+    margin-right: 15rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+#orderId{
+    display: flex;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+   font-weight: 600;
+   display: none;
+}
+#foodImage {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    display: none;
+    padding-bottom: 2rem;
+  }
+  
+  
